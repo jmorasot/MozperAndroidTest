@@ -26,7 +26,7 @@ object Classpath {
 
 object Dependencies {
     internal object Versions {
-        const val lifecycle = "2.2.0"
+        const val lifecycle = "2.4.1"
         const val room = "2.2.5"
         const val retrofit = "2.7.2"
         const val interceptor = "4.2.1"
@@ -36,7 +36,7 @@ object Dependencies {
         const val constraint = "2.1.1"
         const val recycler = "1.2.0-alpha03"
         const val card = "1.0.0"
-        const val koin = "2.0.1"
+        const val koin = "3.0.1"
         const val glide = "4.11.0"
         const val glideTransformations = "4.1.0"
         const val shimmerLayout = "2.1.0"
@@ -74,7 +74,7 @@ object Dependencies {
     }
 
     object Injection {
-        const val koin = "org.koin:koin-androidx-viewmodel:${Versions.koin}"
+        const val koin = "io.insert-koin:koin-android:${Versions.koin}"
     }
 
     object AndroidX {
